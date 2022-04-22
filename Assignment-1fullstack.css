@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+
+body{
+    margin: 0;
+    background-color: white;
+    color: #202124;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+
+}
+.container1{
+  text-align: center;
+}
+.img-logo{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+.h-logo{
+    margin-top: 10px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    color: #202124;
+    text-align: center;
+    font-weight:900;
+}
+.p-logo{
+    margin-top: 10px;
+    word-spacing: 1px;
+}
+.a-logo{
+    text-decoration: none;
+    list-style: none;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:space-around;
+
+}
+.box1{
+    margin: 5px 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(229, 210, 210);
+    width: 40%;
+    height: 270px;
+     /* box-shadow: 1px 2px 5px rgb(65, 53, 53)  ; */
+    
+}
+
+.h-privacy{
+    word-wrap:break-word;
+    width: 40%;
+    padding: 0px 18px;
+
+}
+.p-privacy{
+    word-wrap: break-word;
+    padding: 0px 18px;
+    width: 60%;
+    line-height: 23px;
+    
+}
+
+
+.img-privacy{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    float: right;
+    margin-top:25px;
+    margin-right: 10px;
+}
+hr{
+  /* color: rgb(229, 210, 210); */
+  margin:20px 0px;
+  border-color: rgb(229, 210, 210);
+
+  
+}
+.a-privacy{
+   align-items: center;
+    text-decoration: none;
+    padding: 0px 18px;
+}
+.box2{
+    margin: 5px 15px;
+    /* padding: 10px 20px; */
+    border-radius: 8px;
+    border: 1px solid rgb(229, 210, 210);
+    width: 40%;
+    height: 270px;
+    /* box-shadow: 1px 2px 5px rgb(65, 53, 53)  ; */
+}
+.h2-privacy{
+    word-wrap:break-word;
+    width: 60%;
+    padding: 0px 18px;
+}
+.p2-privacy{
+    word-wrap: break-word;
+    width: 60%;
+    line-height: 23px;
+    margin-bottom: 40px;
+    padding: 0px 18px;
+    /* word-spacing: 2px; */
+}
+.img2-privacy{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    float: right;
+    margin-top:25px;
+    margin-right: 10px;
+}
+.a2-privacy{
+    align-items: center;
+        text-decoration: none;
+        padding: 0px 18px;
+ }
