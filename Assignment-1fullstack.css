@@ -9,17 +9,24 @@ body{
     font-family: 'Roboto', sans-serif;
 
 }
+p{
+    font-weight:600;
+}
+a{
+    font-weight:600;
+}  
+
 .container1{
   text-align: center;
 }
 .img-logo{
-    width: 240px;
-    height: 240px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7px;
+    margin-top: 10px;
 }
 .h-logo{
     margin-top: 10px;
@@ -40,7 +47,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content:space-around;
+    justify-content:center;
 
 }
 .box1{
@@ -48,7 +55,7 @@ body{
     border-radius: 8px;
     border: 1px solid rgb(229, 210, 210);
     width: 40%;
-    height: 270px;
+    height: 247px;
      /* box-shadow: 1px 2px 5px rgb(65, 53, 53)  ; */
     
 }
@@ -78,23 +85,22 @@ body{
 }
 hr{
   /* color: rgb(229, 210, 210); */
-  margin:20px 0px;
+  /* margin:20px 0px; */
   border-color: rgb(229, 210, 210);
 
   
 }
 .a-privacy{
-   align-items: center;
+    text-align: center;
     text-decoration: none;
     padding: 0px 18px;
 }
 .box2{
     margin: 5px 15px;
-    /* padding: 10px 20px; */
     border-radius: 8px;
     border: 1px solid rgb(229, 210, 210);
     width: 40%;
-    height: 270px;
+    height: 247px;
     /* box-shadow: 1px 2px 5px rgb(65, 53, 53)  ; */
 }
 .h2-privacy{
@@ -122,4 +128,33 @@ hr{
     align-items: center;
         text-decoration: none;
         padding: 0px 18px;
+ }
+ .suggestion{
+     /* display: flex; */
+     width: 98rem;
+     height: 227px;
+     border: 1px solid rgb(229, 210, 210);
+     border-radius: 7px;
+     justify-content: center;
+     align-items: center;
+     margin: 10px 174px;
+
+ }
+ .img-suggestion{
+     float: right;
+     margin-top: 20px;
+     margin-right: 10px;
+ }
+ .h-suggestion{
+     width: 45%;
+     padding: 0px 18px;
+ }
+ .p-suggestion{
+      width: 60%;
+      padding: 0px 18px;
+ }
+ .a-suggestion{
+     text-decoration: none;
+     padding: 0px 18px;
+     text-align: center;
  }
